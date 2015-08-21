@@ -19,3 +19,4 @@ if [[ ${DB_PASS} == "" ]]; then
 fi
 
 mysql --user="${DB_USER}" --password="${DB_PASS}" --host="mysql" "$@" "${DB_NAME}"
+
